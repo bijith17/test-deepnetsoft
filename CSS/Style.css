@@ -184,8 +184,12 @@ body::-webkit-scrollbar-thumb:hover {
 @media (min-width:475px) and (max-width:677px){
         .contact {
             margin-left:10px;
+            width: 100%;
         }
-        
+        .contact-location img{
+            width: 7%;
+        }
+
 }
 /* ============Contact============ */
 
@@ -193,7 +197,7 @@ body::-webkit-scrollbar-thumb:hover {
 footer{
     background-color: #141414;;
 }
-footer h4{
+footer h5{
     color: #177260;
 }
 footer span{
