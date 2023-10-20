@@ -1,0 +1,202 @@
+/* ============Font============ */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/* ============Font============ */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #177260;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #a9391e;
+}
+
+
+
+
+
+/* ============navbar============ */
+.text-decoration-none span{
+    font-family: sans-serif;
+}
+/* ============navbar============ */
+
+/* ============Banner============ */
+
+.background-container {
+    position: relative;
+    background: url(/imgs/banner.png) center/cover no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    display: grid;
+}
+
+/* Overlay for the text */
+.overlay{
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 40px;
+}
+
+.overlay h2{
+    color: #177260;
+}
+.overlay h1{
+    font-weight: 900;
+    font-size: 250%;
+}
+.overlay button{
+    background: #F0542D;
+    color: white;
+}
+/* ============Banner============ */
+
+
+/* ============About============ */
+.about .heading {
+    color: #177260;
+}
+
+.about .heading2 {
+    font-weight: 900;
+    font-size: 34px;
+}
+
+.about .heading3 {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.about button {
+    background: #F0542D;
+    color: white;
+}
+.about p{
+    font-size: 14px;
+}
+/* ============About============ */
+
+
+/* ============Industries============ */
+.industries {
+    background: url("/imgs/industriesbg.png");
+}
+
+.industries h5 {
+    color: #177260;
+}
+
+.industries h3 {
+    color: #000;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.industries .button {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.industries button {
+    background-color: #F0542D;
+    color: white;
+}
+.industries .my-5{
+    display: flex;
+      gap: 10px;
+}
+
+.my-5 .icon{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+      
+}
+.industries h6{
+    color: #177260;
+}
+
+/* ============Industries============ */
+
+
+/* ============Contact============ */
+.contact{
+    background: #177260;
+    background-size: cover;
+}
+
+.contact input[type="text"]{
+    width: 80%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+
+}
+.contact input[type="text"]:focus{
+    border: white;
+    outline: 1px solid white;
+    color: white;
+    
+}
+.contact input[type="text"]::placeholder{
+    color: white;
+}
+.contact input[type="submit"]{
+    background-color: #F0542D;
+    outline: none;
+}
+.contact input[type="submit"]:focus{
+    background-color: #a9391e;
+    outline: none;
+}
+.contact-phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-location img{
+    width: 10%;
+    margin-left: -30px;
+}
+.contact-location p{
+    font-family: sans-serif;
+}
+@media (min-width:475px) and (max-width:677px){
+        .contact {
+            margin-left:10px;
+        }
+        
+}
+/* ============Contact============ */
+
+/* ============Footer============ */
+footer{
+    background-color: #141414;;
+}
+footer h4{
+    color: #177260;
+}
+footer span{
+    font-family: sans-serif;
+}
+/* ============Footer============ */
